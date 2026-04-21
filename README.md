@@ -4,12 +4,12 @@ Dans ce projet, vous allez construire de A à Z un Gestionnaire de Tâches inter
 
 **Ce que vous devez implémenter**
 
-1. Formulaire d'ajout Un champ texte et un bouton « Ajouter ». À la soumission, la tâche apparaît dans la liste sans rechargement de la page. Le champ se vide automatiquement. Si le champ est vide, rien ne se passe.
-2. Affichage dynamique des tâches Chaque tâche est une carte créée par JavaScript (createElement). Elle contient : une checkbox ronde, le texte de la tâche, et un bouton × de suppression. Les tâches initiales (données en dur dans un tableau JS) sont affichées au chargement.
-3. Cocher / Décocher Un clic sur la checkbox alterne la classe terminee sur la carte. Le texte passe en barré et la carte change de fond. Le compteur de tâches restantes se met à jour instantanément.
-4. Supprimer une tâche Un clic sur le bouton × supprime la carte du DOM et retire la tâche du tableau de données. Le compteur se recalcule.
-5. Filtres Trois boutons : Toutes, Actives, Terminées. Le filtre actif est mis en évidence (classe CSS). La liste se met à jour à chaque clic sans rechargement.
-6. Compteur Un texte en haut affiche le nombre de tâches non terminées, mis à jour après chaque action (ajout, suppression, cochage).
+1. **Formulaire d'ajout** Un champ texte et un bouton « Ajouter ». À la soumission, la tâche apparaît dans la liste sans rechargement de la page. Le champ se vide automatiquement. Si le champ est vide, rien ne se passe.
+2. **Affichage dynamique des tâches** Chaque tâche est une carte créée par JavaScript (createElement). Elle contient : une checkbox ronde, le texte de la tâche, et un bouton × de suppression. Les tâches initiales (données en dur dans un tableau JS) sont affichées au chargement.
+3. **Cocher / Décocher** Un clic sur la checkbox alterne la classe terminee sur la carte. Le texte passe en barré et la carte change de fond. Le compteur de tâches restantes se met à jour instantanément.
+4. **Supprimer une tâche** Un clic sur le bouton × supprime la carte du DOM et retire la tâche du tableau de données. Le compteur se recalcule.
+5. **Filtres Trois boutons** : Toutes, Actives, Terminées. Le filtre actif est mis en évidence (classe CSS). La liste se met à jour à chaque clic sans rechargement.
+6. **Compteur** Un texte en haut affiche le nombre de tâches non terminées, mis à jour après chaque action (ajout, suppression, cochage).
 
 **Contraintes d'interface (UI à respecter)**
 
