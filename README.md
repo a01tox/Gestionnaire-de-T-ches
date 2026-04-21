@@ -2,7 +2,7 @@
 
 Dans ce projet, vous allez construire de A à Z un Gestionnaire de Tâches interactif entièrement en JavaScript vanilla — sans aucun framework. L'objectif est de mettre en pratique tous les concepts du DOM vus en cours : sélection d'éléments, création dynamique, gestion des événements, modification de classes et de contenu. L'application permettra à l'utilisateur d'ajouter, cocher et supprimer des tâches, de filtrer la liste, et de voir un compteur mis à jour en temps réel. Tout le rendu sera généré dynamiquement par JavaScript — le HTML initial ne contiendra aucune tâche en dur.
 
-**Ce que vous devez implémenter**
+### **Ce que vous devez implémenter**
 
 1. **Formulaire d'ajout** Un champ texte et un bouton « Ajouter ». À la soumission, la tâche apparaît dans la liste sans rechargement de la page. Le champ se vide automatiquement. Si le champ est vide, rien ne se passe.
 2. **Affichage dynamique des tâches** Chaque tâche est une carte créée par JavaScript (createElement). Elle contient : une checkbox ronde, le texte de la tâche, et un bouton × de suppression. Les tâches initiales (données en dur dans un tableau JS) sont affichées au chargement.
@@ -11,7 +11,7 @@ Dans ce projet, vous allez construire de A à Z un Gestionnaire de Tâches inter
 5. **Filtres Trois boutons** : Toutes, Actives, Terminées. Le filtre actif est mis en évidence (classe CSS). La liste se met à jour à chaque clic sans rechargement.
 6. **Compteur** Un texte en haut affiche le nombre de tâches non terminées, mis à jour après chaque action (ajout, suppression, cochage).
 
-**Contraintes d'interface (UI à respecter)**
+### **Contraintes d'interface (UI à respecter)**
 
 Votre application doit respecter les règles visuelles suivantes. Elles font partie de l'évaluation au même titre que le JavaScript. 
 
